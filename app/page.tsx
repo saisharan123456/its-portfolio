@@ -447,18 +447,6 @@ export default function RTSPortfolio() {
           <p className="text-gray-400">© 2024 RTS Production. All rights reserved.</p>
         </div>
       </footer>
-
-      {/* Floating WhatsApp Button */}
-      <motion.div
-        initial={{ scale: 0 }}
-        animate={{ scale: 1 }}
-        transition={{ delay: 1, type: "spring" }}
-        className="fixed bottom-6 right-6 z-50"
-      >
-        <Button size="icon" className="w-14 h-14 rounded-full bg-green-500 hover:bg-green-600 text-white shadow-lg">
-          <MessageCircle size={24} />
-        </Button>
-      </motion.div>
     </div>
   )
 }
